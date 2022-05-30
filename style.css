@@ -127,12 +127,12 @@ button {
 .list-item__task-input {
   width: 226px;
 }
-.button.delete .list-item__img {
+.button.list-item__button-delete .list-item__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete .list-item__img:hover {
+.button.list-item__button-delete .list-item__img:hover {
   transform: rotateZ(0);
 }
 
