@@ -13,6 +13,7 @@
 }
 
 .aside__img {
+  display: block;
   width: 100%;
 }
 
@@ -40,6 +41,10 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+}
+
+.add-item-block {
+  margin: 16px 0;
 }
 
 .task-row-wrapper {
@@ -93,7 +98,7 @@ button {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -144,6 +149,10 @@ button {
 
 .list-item__task-input {
   width: 226px;
+}
+.list-item__img{
+  margin: 0 auto;
+  display: flex;
 }
 
 .button.list-item__button-delete .list-item__img {
